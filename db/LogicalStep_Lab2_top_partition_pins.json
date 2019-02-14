@@ -72,10 +72,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "pb[3]",
-					"strict" : false
-				},
-				{
 					"name" : "sw[4]",
 					"strict" : false
 				},
@@ -84,7 +80,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "pb[2]",
+					"name" : "pb[1]",
 					"strict" : false
 				},
 				{
@@ -92,7 +88,19 @@
 					"strict" : false
 				},
 				{
-					"name" : "pb[1]",
+					"name" : "pb[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pb[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sw[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sw[3]",
 					"strict" : false
 				},
 				{
@@ -109,14 +117,6 @@
 				},
 				{
 					"name" : "sw[2]",
-					"strict" : false
-				},
-				{
-					"name" : "sw[7]",
-					"strict" : false
-				},
-				{
-					"name" : "sw[3]",
 					"strict" : false
 				},
 				{

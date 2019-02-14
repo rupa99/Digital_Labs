@@ -7,19 +7,13 @@ entity mux_1 is
           pb        	: in  std_logic;	
 			 DIN2 		: in  std_logic_vector(7 downto 0);	-- Concatenated
 			 DIN1 		: in  std_logic_vector(7 downto 0); -- Sum
-			 DOUT			: out	std_logic_vector(7 downto 0)
+			 DOUT			: out	std_logic_vector(7 downto 0)                                                                                                                                                                                                                                
         );
 end entity mux_1;
 
 architecture syn of mux_1 is
 
---signal pb_bar : std_logic;
-
 begin 
-
---pb_bar <= NOT(pb);
-
-
 
 DOUT <= (DIN1) WHEN (NOT(pb) = '1')	ELSE (DIN2);
 

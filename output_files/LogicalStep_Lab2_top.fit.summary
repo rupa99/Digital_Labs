@@ -1,12 +1,12 @@
-Fitter Status : Successful - Mon Feb 11 20:39:39 2019
+Fitter Status : Successful - Wed Feb 13 22:26:47 2019
 Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 Revision Name : LogicalStep_Lab2_top
 Top-level Entity Name : LogicalStep_Lab2_top
 Family : MAX 10
 Device : 10M08SAE144C8G
 Timing Models : Final
-Total logic elements : 65 / 8,064 ( < 1 % )
-    Total combinational functions : 65 / 8,064 ( < 1 % )
+Total logic elements : 72 / 8,064 ( < 1 % )
+    Total combinational functions : 72 / 8,064 ( < 1 % )
     Dedicated logic registers : 11 / 8,064 ( < 1 % )
 Total registers : 11
 Total pins : 30 / 101 ( 30 % )

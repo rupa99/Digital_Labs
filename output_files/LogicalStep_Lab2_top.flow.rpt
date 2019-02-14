@@ -1,5 +1,5 @@
 Flow report for LogicalStep_Lab2_top
-Mon Feb 11 20:40:02 2019
+Wed Feb 13 22:27:12 2019
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 
 
@@ -41,15 +41,15 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Mon Feb 11 20:40:02 2019           ;
+; Flow Status                        ; Successful - Wed Feb 13 22:27:12 2019           ;
 ; Quartus Prime Version              ; 15.1.0 Build 185 10/21/2015 SJ Standard Edition ;
 ; Revision Name                      ; LogicalStep_Lab2_top                            ;
 ; Top-level Entity Name              ; LogicalStep_Lab2_top                            ;
 ; Family                             ; MAX 10                                          ;
 ; Device                             ; 10M08SAE144C8G                                  ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 65 / 8,064 ( < 1 % )                            ;
-;     Total combinational functions  ; 65 / 8,064 ( < 1 % )                            ;
+; Total logic elements               ; 72 / 8,064 ( < 1 % )                            ;
+;     Total combinational functions  ; 72 / 8,064 ( < 1 % )                            ;
 ;     Dedicated logic registers      ; 11 / 8,064 ( < 1 % )                            ;
 ; Total registers                    ; 11                                              ;
 ; Total pins                         ; 30 / 101 ( 30 % )                               ;
@@ -67,7 +67,7 @@ agreement for further details.
 +-------------------+----------------------+
 ; Option            ; Setting              ;
 +-------------------+----------------------+
-; Start date & time ; 02/11/2019 20:39:15  ;
+; Start date & time ; 02/13/2019 22:26:08  ;
 ; Main task         ; Compilation          ;
 ; Revision Name     ; LogicalStep_Lab2_top ;
 +-------------------+----------------------+
@@ -78,7 +78,7 @@ agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 163580558333057.154993555505684       ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 163580558333091.155011476708700       ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                  ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                ; <None>        ; --          ; --             ;
 ; FLOW_ENABLE_POWER_ANALYZER          ; On                                    ; Off           ; --          ; --             ;
@@ -113,13 +113,13 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:14     ; 1.0                     ; 4992 MB             ; 00:00:22                           ;
-; Fitter                    ; 00:00:07     ; 1.0                     ; 5609 MB             ; 00:00:05                           ;
-; Assembler                 ; 00:00:02     ; 1.0                     ; 4866 MB             ; 00:00:01                           ;
-; PowerPlay Power Analyzer  ; 00:00:02     ; 1.0                     ; 4984 MB             ; 00:00:02                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4892 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4828 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:28     ; --                      ; --                  ; 00:00:32                           ;
+; Analysis & Synthesis      ; 00:00:23     ; 1.0                     ; 4992 MB             ; 00:00:31                           ;
+; Fitter                    ; 00:00:08     ; 1.0                     ; 5609 MB             ; 00:00:07                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4865 MB             ; 00:00:01                           ;
+; PowerPlay Power Analyzer  ; 00:00:02     ; 1.0                     ; 4983 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4895 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4828 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:39     ; --                      ; --                  ; 00:00:43                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -128,12 +128,12 @@ agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; ECE-FPGA26       ; Windows 8 ; 6.2        ; x86_64         ;
-; Fitter                    ; ECE-FPGA26       ; Windows 8 ; 6.2        ; x86_64         ;
-; Assembler                 ; ECE-FPGA26       ; Windows 8 ; 6.2        ; x86_64         ;
-; PowerPlay Power Analyzer  ; ECE-FPGA26       ; Windows 8 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; ECE-FPGA26       ; Windows 8 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; ECE-FPGA26       ; Windows 8 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; ECE-FPGA11       ; Windows 8 ; 6.2        ; x86_64         ;
+; Fitter                    ; ECE-FPGA11       ; Windows 8 ; 6.2        ; x86_64         ;
+; Assembler                 ; ECE-FPGA11       ; Windows 8 ; 6.2        ; x86_64         ;
+; PowerPlay Power Analyzer  ; ECE-FPGA11       ; Windows 8 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; ECE-FPGA11       ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; ECE-FPGA11       ; Windows 8 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 

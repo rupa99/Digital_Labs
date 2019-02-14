@@ -1,5 +1,5 @@
 PowerPlay Power Analyzer report for LogicalStep_Lab2_top
-Mon Feb 11 20:39:52 2019
+Wed Feb 13 22:27:00 2019
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 
 
@@ -65,7 +65,7 @@ agreement for further details.
 +-------------------------------------------------------------------------------------------+
 ; PowerPlay Power Analyzer Summary                                                          ;
 +----------------------------------------+--------------------------------------------------+
-; PowerPlay Power Analyzer Status        ; Successful - Mon Feb 11 20:39:52 2019            ;
+; PowerPlay Power Analyzer Status        ; Successful - Wed Feb 13 22:27:00 2019            ;
 ; Quartus Prime Version                  ; 15.1.0 Build 185 10/21/2015 SJ Standard Edition  ;
 ; Revision Name                          ; LogicalStep_Lab2_top                             ;
 ; Top-level Entity Name                  ; LogicalStep_Lab2_top                             ;
@@ -75,7 +75,7 @@ agreement for further details.
 ; Total Thermal Power Dissipation        ; 159.79 mW                                        ;
 ; Core Dynamic Thermal Power Dissipation ; 0.00 mW                                          ;
 ; Core Static Thermal Power Dissipation  ; 110.73 mW                                        ;
-; I/O Thermal Power Dissipation          ; 49.06 mW                                         ;
+; I/O Thermal Power Dissipation          ; 49.05 mW                                         ;
 ; Power Estimation Confidence            ; Low: user provided insufficient toggle rate data ;
 +----------------------------------------+--------------------------------------------------+
 
@@ -111,18 +111,18 @@ agreement for further details.
 +-----------------------+-----------------------------+
 ; Node                  ; Reason                      ;
 +-----------------------+-----------------------------+
-; pb[3]                 ; No valid clock domain found ;
 ; sw[4]                 ; No valid clock domain found ;
 ; sw[0]                 ; No valid clock domain found ;
-; pb[2]                 ; No valid clock domain found ;
-; pb[0]                 ; No valid clock domain found ;
 ; pb[1]                 ; No valid clock domain found ;
+; pb[0]                 ; No valid clock domain found ;
+; pb[2]                 ; No valid clock domain found ;
+; pb[3]                 ; No valid clock domain found ;
+; sw[7]                 ; No valid clock domain found ;
+; sw[3]                 ; No valid clock domain found ;
 ; sw[5]                 ; No valid clock domain found ;
 ; sw[1]                 ; No valid clock domain found ;
 ; sw[6]                 ; No valid clock domain found ;
 ; sw[2]                 ; No valid clock domain found ;
-; sw[7]                 ; No valid clock domain found ;
-; sw[3]                 ; No valid clock domain found ;
 ; clkin_50              ; No valid clock domain found ;
 ; clkin_50~inputclkctrl ; No valid clock domain found ;
 +-----------------------+-----------------------------+
@@ -167,7 +167,7 @@ agreement for further details.
 +--------------------+-----------------------------------+-----------------------------+--------------------------------+-------------------------------+-----------------------------------------------------------+
 ; Combinational cell ; 0.00 mW                           ; 0.00 mW                     ; --                             ; 0.00 mW                       ;    0.000                                                  ;
 ; Register cell      ; 0.00 mW                           ; 0.00 mW                     ; --                             ; 0.00 mW                       ;    0.000                                                  ;
-; I/O                ; 1.54 mW                           ; 0.00 mW                     ; 1.54 mW                        ; 0.00 mW                       ;    0.000                                                  ;
+; I/O                ; 1.53 mW                           ; 0.00 mW                     ; 1.53 mW                        ; 0.00 mW                       ;    0.000                                                  ;
 ; Voltage Regulator  ; 0.00 mW                           ; 0.00 mW                     ; 0.00 mW                        ; --                            ; --                                                        ;
 +--------------------+-----------------------------------+-----------------------------+--------------------------------+-------------------------------+-----------------------------------------------------------+
 (1) The "Block Thermal Static Power" for all block types except Pins and the Voltage Regulator, if one exists, is part of the "Core Static Thermal Power Dissipation" value found on the PowerPlay Power Analyzer-->Summary report panel. The "Core Static Thermal Power Dissipation" also contains the thermal static power dissipated by the routing.
@@ -178,7 +178,7 @@ agreement for further details.
 +-------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------------------------------------------+
 ; Compilation Hierarchy Node          ; Total Thermal Power by Hierarchy (1) ; Block Thermal Dynamic Power (1) ; Block Thermal Static Power (1)(2) ; Routing Thermal Dynamic Power (1) ; Full Hierarchy Name                                  ;
 +-------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+------------------------------------------------------+
-; |LogicalStep_Lab2_top               ; 1.54 mW (1.54 mW)                    ; 0.00 mW (0.00 mW)               ; 1.54 mW (1.54 mW)                 ; 0.00 mW (0.00 mW)                 ; |LogicalStep_Lab2_top                                ;
+; |LogicalStep_Lab2_top               ; 1.53 mW (1.53 mW)                    ; 0.00 mW (0.00 mW)               ; 1.53 mW (1.53 mW)                 ; 0.00 mW (0.00 mW)                 ; |LogicalStep_Lab2_top                                ;
 ;     |hard_block:auto_generated_inst ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |LogicalStep_Lab2_top|hard_block:auto_generated_inst ;
 ;     |errorCheck:INST1               ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |LogicalStep_Lab2_top|errorCheck:INST1               ;
 ;     |Adder:INST4                    ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |LogicalStep_Lab2_top|Adder:INST4                    ;
@@ -223,7 +223,7 @@ agreement for further details.
 ; 1A       ; 3.3V          ; 1.73 mA             ; 0.00 mA               ; 1.73 mA              ;
 ; 1B       ; 3.3V          ; 1.68 mA             ; 0.00 mA               ; 1.68 mA              ;
 ; 2        ; 3.3V          ; 1.67 mA             ; 0.00 mA               ; 1.67 mA              ;
-; 3        ; 3.3V          ; 1.72 mA             ; 0.00 mA               ; 1.72 mA              ;
+; 3        ; 3.3V          ; 1.71 mA             ; 0.00 mA               ; 1.71 mA              ;
 ; 4        ; 3.3V          ; 1.60 mA             ; 0.00 mA               ; 1.60 mA              ;
 ; 5        ; 3.3V          ; 1.60 mA             ; 0.00 mA               ; 1.60 mA              ;
 ; 6        ; 3.3V          ; 1.62 mA             ; 0.00 mA               ; 1.62 mA              ;
@@ -257,16 +257,16 @@ agreement for further details.
 ;     -- Number of signals with Static Probability from Node, entity or clock assignment ; 1 (0.6%)    ; 0 (0.0%)   ; 0 (0.0%)    ; 1 (0.9%)      ;
 ;                                                                                        ;             ;            ;             ;               ;
 ; Vectorless estimation                                                                  ;             ;            ;             ;               ;
-;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 139 (89.7%) ; 18 (52.9%) ; 11 (100.0%) ; 110 (100.0%)  ;
-;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 83 (53.5%)  ; 9 (26.5%)  ; 0 (0.0%)    ; 74 (67.3%)    ;
-;     -- Number of signals with Static Probability from Vectorless estimation            ; 138 (89.0%) ; 18 (52.9%) ; 11 (100.0%) ; 109 (99.1%)   ;
+;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 146 (90.1%) ; 18 (52.9%) ; 11 (100.0%) ; 117 (100.0%)  ;
+;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 90 (55.6%)  ; 9 (26.5%)  ; 0 (0.0%)    ; 81 (69.2%)    ;
+;     -- Number of signals with Static Probability from Vectorless estimation            ; 145 (89.5%) ; 18 (52.9%) ; 11 (100.0%) ; 116 (99.1%)   ;
 ;                                                                                        ;             ;            ;             ;               ;
 ; Default assignment                                                                     ;             ;            ;             ;               ;
 ;     -- Number of signals with Toggle Rate from Default assignment                      ; 0 (0.0%)    ; 0 (0.0%)   ; 0 (0.0%)    ; 0 (0.0%)      ;
-;     -- Number of signals with Static Probability from Default assignment               ; 16 (10.3%)  ; 16 (47.1%) ; 0 (0.0%)    ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Default assignment               ; 16 (9.9%)   ; 16 (47.1%) ; 0 (0.0%)    ; 0 (0.0%)      ;
 ;                                                                                        ;             ;            ;             ;               ;
 ; Assumed 0                                                                              ;             ;            ;             ;               ;
-;     -- Number of signals with Toggle Rate assumed 0                                    ; 16 (10.3%)  ; 16 (47.1%) ; 0 (0.0%)    ; 0 (0.0%)      ;
+;     -- Number of signals with Toggle Rate assumed 0                                    ; 16 (9.9%)   ; 16 (47.1%) ; 0 (0.0%)    ; 0 (0.0%)      ;
 +----------------------------------------------------------------------------------------+-------------+------------+-------------+---------------+
 
 
@@ -284,7 +284,7 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime PowerPlay Power Analyzer
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
-    Info: Processing started: Mon Feb 11 20:39:50 2019
+    Info: Processing started: Wed Feb 13 22:26:58 2019
 Info: Command: quartus_pow --read_settings_files=off --write_settings_files=off LogicalStep_Lab2 -c LogicalStep_Lab2_top
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
@@ -301,9 +301,9 @@ Info (334004): Delay annotation completed successfully
 Info (215049): Average toggle rate for this design is 0.000 millions of transitions / sec
 Info (215031): Total thermal power estimate for the design is 159.79 mW
 Info: Quartus Prime PowerPlay Power Analyzer was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4984 megabytes
-    Info: Processing ended: Mon Feb 11 20:39:52 2019
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 4983 megabytes
+    Info: Processing ended: Wed Feb 13 22:27:01 2019
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:02
 
 

@@ -8,37 +8,37 @@ z2
 !i10f 100
 cModel Technology
 Z0 dN:/ECE124/Lab2/simulation/modelsim
-Elogicalstep_lab2_top
-Z1 w1548777334
+Eadder
+Z1 w1550112065
 Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z5 8N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd
-Z6 FN:/ECE124/Lab2/LogicalStep_Lab2_top.vhd
+Z5 8N:/ECE124/Lab2/output_files/Adder.vhd
+Z6 FN:/ECE124/Lab2/output_files/Adder.vhd
 l0
-L6
-VVBeS>PiBRA8AO8mUdnjI^3
-!s100 2?ZWgG17Ni^=iY5Z4NB?h0
+L5
+Vng:k<4cA^U<fAE]]QO4Je0
+!s100 hAdLIU9MfEdh?HkH?e]fW0
 Z7 OV;C;10.4b;61
 31
-Z8 !s110 1549055536
+Z8 !s110 1550112091
 !i10b 1
-Z9 !s108 1549055536.000000
-Z10 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd|
-Z11 !s107 N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd|
+Z9 !s108 1550112091.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab2/output_files/Adder.vhd|
+Z11 !s107 N:/ECE124/Lab2/output_files/Adder.vhd|
 !i113 1
 Z12 o-93 -work work
 Z13 tExplicit 1
-Asimplecircuit
+Abehavioral
 R2
 R3
 R4
-DEx4 work 20 logicalstep_lab2_top 0 22 VBeS>PiBRA8AO8mUdnjI^3
-l51
-L18
-Vn63B7`3IKRL_`WU`T7Mce0
-!s100 ]5hn8O78lUHbn71l5Ge>P2
+DEx4 work 5 adder 0 22 ng:k<4cA^U<fAE]]QO4Je0
+l20
+L13
+VkROW]?3n8GL]6zQ=7R?^n1
+!s100 dN`ZA@LH?LFLK@z`iCZD^2
 R7
 31
 R8
@@ -49,25 +49,271 @@ R11
 !i113 1
 R12
 R13
-Esegment7_mux
-Z14 w1491498748
+Econcatenate
+Z14 w1550104339
 R2
 R3
 R4
 R0
-Z15 8N:/ECE124/Lab2/segment7_mux.vhd
-Z16 FN:/ECE124/Lab2/segment7_mux.vhd
+Z15 8N:/ECE124/Lab2/output_files/Concatenate.vhd
+Z16 FN:/ECE124/Lab2/output_files/Concatenate.vhd
+l0
+L5
+VV9DSa2mNk:O8HPg`2]<Jo0
+!s100 5jIP^Eke`z2ER9zj5GOD:3
+R7
+31
+Z17 !s110 1550112092
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab2/output_files/Concatenate.vhd|
+Z19 !s107 N:/ECE124/Lab2/output_files/Concatenate.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 11 concatenate 0 22 V9DSa2mNk:O8HPg`2]<Jo0
+l15
+L13
+VP2RgP8<bB@Uf0]`TLbkb:1
+!s100 jB=gom>mRFNdG@H:EOPK30
+R7
+31
+R17
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Eerrorcheck
+R14
+R2
+R3
+R4
+R0
+Z20 8N:/ECE124/Lab2/output_files/errorCheck.vhd
+Z21 FN:/ECE124/Lab2/output_files/errorCheck.vhd
+l0
+L6
+VAUcMeQzZJPI1SPHN2;Mod1
+!s100 A4cc8eji6`gE:;A8WAk182
+R7
+31
+Z22 !s110 1550112093
+!i10b 1
+Z23 !s108 1550112092.000000
+Z24 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab2/output_files/errorCheck.vhd|
+Z25 !s107 N:/ECE124/Lab2/output_files/errorCheck.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 10 errorcheck 0 22 AUcMeQzZJPI1SPHN2;Mod1
+l17
+L14
+V:njKl@_I7gBmYIP7JHagR3
+!s100 PEB9BKIIKa465JkQcbXBo3
+R7
+31
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R12
+R13
+Elogic_processor
+Z26 w1550105044
+R2
+R3
+R4
+R0
+Z27 8N:/ECE124/Lab2/output_files/Logic_Processor.vhd
+Z28 FN:/ECE124/Lab2/output_files/Logic_Processor.vhd
+l0
+L5
+V3<<b[DK9<C1V=PD6YdR2C0
+!s100 eD>Jg5B_90h_jK9YfJMAG3
+R7
+31
+R17
+!i10b 1
+R23
+Z29 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab2/output_files/Logic_Processor.vhd|
+Z30 !s107 N:/ECE124/Lab2/output_files/Logic_Processor.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 15 logic_processor 0 22 3<<b[DK9<C1V=PD6YdR2C0
+l17
+L15
+V7STd4S;P9n4^D9<k78G2d3
+!s100 M5BnzSJ2bKH5PgAlW4<ni1
+R7
+31
+R17
+!i10b 1
+R23
+R29
+R30
+!i113 1
+R12
+R13
+Elogicalstep_lab2_top
+Z31 w1550111616
+R2
+R3
+R4
+R0
+Z32 8N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd
+Z33 FN:/ECE124/Lab2/LogicalStep_Lab2_top.vhd
+l0
+L6
+VVBeS>PiBRA8AO8mUdnjI^3
+!s100 2?ZWgG17Ni^=iY5Z4NB?h0
+R7
+31
+R8
+!i10b 1
+Z34 !s108 1550112090.000000
+Z35 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd|
+Z36 !s107 N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd|
+!i113 1
+R12
+R13
+Asimplecircuit
+R2
+R3
+R4
+DEx4 work 20 logicalstep_lab2_top 0 22 VBeS>PiBRA8AO8mUdnjI^3
+l119
+L18
+VYSA6YA8;:UjAnB5WE6dYN2
+!s100 Wg=VbzA<feh;ZH9ch4L6U0
+R7
+31
+R8
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R12
+R13
+Emux_1
+R14
+R2
+R3
+R4
+R0
+Z37 8N:/ECE124/Lab2/output_files/mux_1.vhd
+Z38 FN:/ECE124/Lab2/output_files/mux_1.vhd
+l0
+L5
+VV<FkOJm5`c`^BHBIWK];;0
+!s100 kdV3n:4?SYJ6JcmW8lf5Z0
+R7
+31
+R17
+!i10b 1
+R23
+Z39 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab2/output_files/mux_1.vhd|
+Z40 !s107 N:/ECE124/Lab2/output_files/mux_1.vhd|
+!i113 1
+R12
+R13
+Asyn
+R2
+R3
+R4
+DEx4 work 5 mux_1 0 22 V<FkOJm5`c`^BHBIWK];;0
+l16
+L14
+Vhm@1cbX>;9GeM9N_`cDNY3
+!s100 n1]==[[n8ME[M@3=RjAEk3
+R7
+31
+R17
+!i10b 1
+R23
+R39
+R40
+!i113 1
+R12
+R13
+Emux_2
+Z41 w1550104211
+R2
+R3
+R4
+R0
+Z42 8N:/ECE124/Lab2/output_files/mux_2.vhd
+Z43 FN:/ECE124/Lab2/output_files/mux_2.vhd
+l0
+L5
+VBIR?jz6aVR=<Je=SQHBAB2
+!s100 AmJ`UJP;aS7V2NgKB8Jbn1
+R7
+31
+R17
+!i10b 1
+R23
+Z44 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab2/output_files/mux_2.vhd|
+Z45 !s107 N:/ECE124/Lab2/output_files/mux_2.vhd|
+!i113 1
+R12
+R13
+Asyn
+R2
+R3
+R4
+DEx4 work 5 mux_2 0 22 BIR?jz6aVR=<Je=SQHBAB2
+l18
+L14
+VzLRf>PK>YfR8Aj8RGfE@I3
+!s100 HaRV0b33j>:B:mMDfd`R=0
+R7
+31
+R17
+!i10b 1
+R23
+R44
+R45
+!i113 1
+R12
+R13
+Esegment7_mux
+Z46 w1491498748
+R2
+R3
+R4
+R0
+Z47 8N:/ECE124/Lab2/segment7_mux.vhd
+Z48 FN:/ECE124/Lab2/segment7_mux.vhd
 l0
 L52
 VSjdkHh64gHFmPGf:E2C3j3
 !s100 <9hNY[@UcmBTcjH?JCU<R2
 R7
 31
-Z17 !s110 1549055537
+R8
 !i10b 1
-Z18 !s108 1549055537.000000
-Z19 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab2/segment7_mux.vhd|
-Z20 !s107 N:/ECE124/Lab2/segment7_mux.vhd|
+R9
+Z49 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab2/segment7_mux.vhd|
+Z50 !s107 N:/ECE124/Lab2/segment7_mux.vhd|
 !i113 1
 R12
 R13
@@ -82,33 +328,33 @@ VAWTbSo;8GaA`:C2FDifMC3
 !s100 NdfK35Am56JD=jz7`>OAZ1
 R7
 31
-R17
+R8
 !i10b 1
-R18
-R19
-R20
+R9
+R49
+R50
 !i113 1
 R12
 R13
 Esevensegment
-Z21 w1548779179
+Z51 w1548779179
 R2
 R3
 R4
 R0
-Z22 8N:/ECE124/Lab2/SevenSegment.vhd
-Z23 FN:/ECE124/Lab2/SevenSegment.vhd
+Z52 8N:/ECE124/Lab2/SevenSegment.vhd
+Z53 FN:/ECE124/Lab2/SevenSegment.vhd
 l0
 L10
 VIcE=JoX9k?e0S7Q]iSiUh2
 !s100 04IXS8z>2XE3`KedF`LM>0
 R7
 31
-Z24 !s110 1549055538
+R8
 !i10b 1
-Z25 !s108 1549055538.000000
-Z26 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab2/SevenSegment.vhd|
-Z27 !s107 N:/ECE124/Lab2/SevenSegment.vhd|
+R9
+Z54 !s90 -reportprogress|300|-93|-work|work|N:/ECE124/Lab2/SevenSegment.vhd|
+Z55 !s107 N:/ECE124/Lab2/SevenSegment.vhd|
 !i113 1
 R12
 R13
@@ -123,11 +369,11 @@ VaOgj9=lbfiTN8aU89AkQ[2
 !s100 XjUKhfieLXQ<DFo[HWAVi1
 R7
 31
-R24
+R8
 !i10b 1
-R25
-R26
-R27
+R9
+R54
+R55
 !i113 1
 R12
 R13

@@ -20,8 +20,8 @@ architecture SimpleCircuit of LogicalStep_Lab2_top is
 -- Components Used ---
 ------------------------------------------------------------------- 
   component SevenSegment port (
-   hex   		:  in  std_logic_vector(3 downto 0);   -- The 4 bit data to be displayed
-   sevenseg 	:  out std_logic_vector(6 downto 0)    -- 7-bit outputs to a 7-segment
+		hex   		:  in  std_logic_vector(3 downto 0);   -- The 4 bit data to be displayed
+		sevenseg 	:  out std_logic_vector(6 downto 0)    -- 7-bit outputs to a 7-segment
    ); 
    end component;
 	
@@ -47,39 +47,36 @@ architecture SimpleCircuit of LogicalStep_Lab2_top is
 		input_2 : in std_logic_vector(7 downto 4);
 		output_sum : out std_logic_vector(7 downto 0)
 	);
-	
 	end component;
 	
 	component mux_1 port(
 		
-				pb  		: in std_logic;
-			 DIN2 		: in  std_logic_vector(7 downto 0);	-- Concatenated
-			 DIN1 		: in  std_logic_vector(7 downto 0); -- Sum
-			 DOUT			: out	std_logic_vector(7 downto 0)
+		pb  		: in std_logic;
+		DIN2 		: in  std_logic_vector(7 downto 0);	-- Concatenated
+		DIN1 		: in  std_logic_vector(7 downto 0); -- Sum
+		DOUT			: out	std_logic_vector(7 downto 0)
 	
 	);
-	
 	end component;
 	 
 	 
 	 component Logic_Processor port(
-			pb		 	: in std_logic_vector(3 downto 0);
-			input_1 	: in std_logic_vector(3 downto 0);
-			input_2 	: in std_logic_vector(7 downto 4);
-			output	: out std_logic_vector(3 downto 0)
+		pb		 	: in std_logic_vector(3 downto 0);
+		input_1 	: in std_logic_vector(3 downto 0);
+		input_2 	: in std_logic_vector(7 downto 4);
+		output	: out std_logic_vector(3 downto 0)
 	 );
 	 
 	 end component;
 	 
 	 component mux_2 port(
 		
-				pb		 	: in std_logic;
-			 DIN2 		: in  std_logic_vector(7 downto 0);	-- Added
-			 DIN1 		: in  std_logic_vector(7 downto 0); -- Concatenated
-			 DOUT			: out	std_logic_vector(7 downto 0)
+		pb		 	: in std_logic;
+		DIN2 		: in  std_logic_vector(7 downto 0);	-- Added
+		DIN1 		: in  std_logic_vector(7 downto 0); -- Concatenated
+		DOUT		: out	std_logic_vector(7 downto 0)
 	
 	);
-	
 	end component;
 	
 	
@@ -101,41 +98,31 @@ architecture SimpleCircuit of LogicalStep_Lab2_top is
 --
 --  std_logic_vector is a signal which can be used for logic operations such as OR, AND, NOT, XOR
 --
-	signal seg7_A		: std_logic_vector(6 downto 0);
-	signal hex_A		: std_logic_vector(3 downto 0);
-	signal seg7_B		: std_logic_vector(6 downto 0);
-	signal error_A		: std_logic_vector(6 downto 0);
-	signal error_B		: std_logic_vector(6 downto 0);
-	signal hex_B		: std_logic_vector(7 downto 4);
-	signal output_concat : std_logic_vector(7 downto 0);
-	signal outputSum : std_logic_vector(7 downto 0);
-	signal digit_out : std_logic_vector(7 downto 0);
-	signal part_1 : std_logic_vector(3 downto 0);
-	signal part_2 : std_logic_vector(3 downto 0);
-	signal Logic_processor_output : std_logic_vector(3 downto 0);
-	signal mux_2_input1 : std_logic_vector(7 downto 0);
-	signal areButtonsPressed : std_logic_vector(3 downto 0);
-	
---	signal mux_2_output : std_logic_vector(7 downto 0);
-	
+	signal seg7_A							: std_logic_vector(6 downto 0);
+	signal hex_A							: std_logic_vector(3 downto 0);
+	signal seg7_B							: std_logic_vector(6 downto 0);
+	signal error_A							: std_logic_vector(6 downto 0);
+	signal error_B							: std_logic_vector(6 downto 0);
+	signal hex_B							: std_logic_vector(7 downto 4);
+	signal output_concat 				: std_logic_vector(7 downto 0);
+	signal outputSum 						: std_logic_vector(7 downto 0);
+	signal digit_out 						: std_logic_vector(7 downto 0);
+	signal part_1 							: std_logic_vector(3 downto 0);
+	signal part_2 							: std_logic_vector(3 downto 0);
+	signal Logic_processor_output 	: std_logic_vector(3 downto 0);
+	signal mux_2_input1 					: std_logic_vector(7 downto 0);
+	signal areButtonsPressed 			: std_logic_vector(3 downto 0);
+
 	
 -- Here the circuit begins
 
 begin
 
-hex_A <= sw(3 downto 0);
-hex_B <= sw(7 downto 4);
---seg7_data <= seg7_A;+
---seg7_data <= seg7_B;
+hex_B <= sw(3 downto 0);
+hex_A <= sw(7 downto 4);
 
-
-
- 
 INST1 : errorCheck port map(pb, areButtonsPressed);
 
-INST01 : SevenSegment port map(areButtonsPressed, error_A); --creating the constructor!!!
-
-INST2 : SevenSegment port map(areButtonsPressed, error_B);
 
 
 
@@ -154,6 +141,11 @@ INST5 : mux_1 port map(pb(3), output_concat, outputSum, digit_out);
 
 -- Opposite of Concatenation
 
+--part_1 <= digit_out(7 downto 4);
+--part_2 <= digit_out(3 downto 0);
+
+-- Uncomment this:
+-- Starts here:
 
 --if areButtonsPressed = "1000" then
 with areButtonsPressed select
@@ -168,16 +160,16 @@ with areButtonsPressed select
 part_2 <=  "1000" when "1000",
 			digit_out(3 downto 0) when "0001",
 			"0000" when others;
-	
-
+	   
+-- Ends here
 
 --end if;
 
-INST6 : SevenSegment port map(part_1, seg7_A); --creating the constructor!!!
+INST6 : SevenSegment port map(part_1, seg7_B); --creating the constructor!!!
 
-INST7 : SevenSegment port map(part_2, seg7_B);
+INST7 : SevenSegment port map(part_2, seg7_A);
 
-INST8 : segment7_mux port map(clkin_50, seg7_A, seg7_B, seg7_data, seg7_char2, seg7_char1);
+INST8 : segment7_mux port map(clkin_50, seg7_B, seg7_A, seg7_data, seg7_char1, seg7_char2);
 
  
  
@@ -187,6 +179,7 @@ INST8 : segment7_mux port map(clkin_50, seg7_A, seg7_B, seg7_data, seg7_char2, s
  
  with Logic_processor_output select
   mux_2_input1 <= "11111111" when "1111",
+						outputSum when "0110",
 						("0000" & Logic_processor_output) when others;
  
  

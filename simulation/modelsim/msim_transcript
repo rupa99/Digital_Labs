@@ -13,7 +13,7 @@
 # 
 # vcom -93 -work work {N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 16:12:16 on Feb 01,2019
+# Start time: 21:41:30 on Feb 13,2019
 # vcom -reportprogress 300 -93 -work work N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -21,11 +21,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity LogicalStep_Lab2_top
 # -- Compiling architecture SimpleCircuit of LogicalStep_Lab2_top
-# End time: 16:12:17 on Feb 01,2019, Elapsed time: 0:00:01
+# End time: 21:41:31 on Feb 13,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {N:/ECE124/Lab2/segment7_mux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 16:12:17 on Feb 01,2019
+# Start time: 21:41:31 on Feb 13,2019
 # vcom -reportprogress 300 -93 -work work N:/ECE124/Lab2/segment7_mux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -33,11 +33,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity segment7_mux
 # -- Compiling architecture syn of segment7_mux
-# End time: 16:12:18 on Feb 01,2019, Elapsed time: 0:00:01
+# End time: 21:41:31 on Feb 13,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {N:/ECE124/Lab2/SevenSegment.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
-# Start time: 16:12:18 on Feb 01,2019
+# Start time: 21:41:31 on Feb 13,2019
 # vcom -reportprogress 300 -93 -work work N:/ECE124/Lab2/SevenSegment.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -45,6 +45,78 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity SevenSegment
 # -- Compiling architecture Behavioral of SevenSegment
-# End time: 16:12:18 on Feb 01,2019, Elapsed time: 0:00:00
+# End time: 21:41:31 on Feb 13,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {N:/ECE124/Lab2/output_files/Adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 21:41:31 on Feb 13,2019
+# vcom -reportprogress 300 -93 -work work N:/ECE124/Lab2/output_files/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture Behavioral of Adder
+# End time: 21:41:31 on Feb 13,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {N:/ECE124/Lab2/output_files/Concatenate.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 21:41:31 on Feb 13,2019
+# vcom -reportprogress 300 -93 -work work N:/ECE124/Lab2/output_files/Concatenate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity concatenate
+# -- Compiling architecture Behavioral of concatenate
+# End time: 21:41:32 on Feb 13,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {N:/ECE124/Lab2/output_files/mux_1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 21:41:32 on Feb 13,2019
+# vcom -reportprogress 300 -93 -work work N:/ECE124/Lab2/output_files/mux_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_1
+# -- Compiling architecture syn of mux_1
+# End time: 21:41:32 on Feb 13,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {N:/ECE124/Lab2/output_files/Logic_Processor.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 21:41:32 on Feb 13,2019
+# vcom -reportprogress 300 -93 -work work N:/ECE124/Lab2/output_files/Logic_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Logic_Processor
+# -- Compiling architecture Behavioral of Logic_Processor
+# End time: 21:41:32 on Feb 13,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {N:/ECE124/Lab2/output_files/mux_2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 21:41:32 on Feb 13,2019
+# vcom -reportprogress 300 -93 -work work N:/ECE124/Lab2/output_files/mux_2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux_2
+# -- Compiling architecture syn of mux_2
+# End time: 21:41:32 on Feb 13,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {N:/ECE124/Lab2/output_files/errorCheck.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 21:41:32 on Feb 13,2019
+# vcom -reportprogress 300 -93 -work work N:/ECE124/Lab2/output_files/errorCheck.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity errorCheck
+# -- Compiling architecture Behavioral of errorCheck
+# End time: 21:41:33 on Feb 13,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 

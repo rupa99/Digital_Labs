@@ -19,7 +19,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "01/29/2019 10:33:24"
+// Generated on "02/13/2019 22:11:23"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          LogicalStep_Lab2_top
 // 
@@ -55,40 +55,120 @@ begin
 #1000000 $finish;
 end 
 
-// sw[3]
+// sw[0]
 initial
 begin
-	sw[3] = 1'b0;
-	sw[3] = #400000 1'b1;
-	sw[3] = #400000 1'b0;
+	repeat(2)
+	begin
+		sw[0] = 1'b0;
+		sw[0] = #240000 1'b1;
+		# 240000;
+	end
+	sw[0] = 1'b0;
+end 
+
+// sw[1]
+initial
+begin
+	repeat(4)
+	begin
+		sw[1] = 1'b0;
+		sw[1] = #120000 1'b1;
+		# 120000;
+	end
+	sw[1] = 1'b0;
 end 
 
 // sw[2]
 initial
 begin
-	repeat(2)
+	repeat(8)
 	begin
 		sw[2] = 1'b0;
-		sw[2] = #200000 1'b1;
-		# 200000;
+		sw[2] = #60000 1'b1;
+		# 60000;
 	end
 	sw[2] = 1'b0;
 end 
 
-// sw[1]
+// sw[3]
+initial
+begin
+	repeat(16)
+	begin
+		sw[3] = 1'b0;
+		sw[3] = #30000 1'b1;
+		# 30000;
+	end
+	sw[3] = 1'b0;
+	sw[3] = #30000 1'b1;
+end 
+
+// sw[4]
+initial
+begin
+	sw[4] = 1'b0;
+	sw[4] = #400000 1'b1;
+	sw[4] = #400000 1'b0;
+end 
+
+// sw[5]
+initial
+begin
+	repeat(2)
+	begin
+		sw[5] = 1'b0;
+		sw[5] = #200000 1'b1;
+		# 200000;
+	end
+	sw[5] = 1'b0;
+end 
+
+// sw[6]
 always
 begin
-	sw[1] = 1'b0;
-	sw[1] = #100000 1'b1;
+	sw[6] = 1'b0;
+	sw[6] = #100000 1'b1;
 	#100000;
 end 
 
-// sw[0]
+// sw[7]
 always
 begin
-	sw[0] = 1'b0;
-	sw[0] = #50000 1'b1;
+	sw[7] = 1'b0;
+	sw[7] = #50000 1'b1;
 	#50000;
+end 
+
+// pb[0]
+initial
+begin
+	pb[0] = 1'b1;
+	pb[0] = #970000 1'b0;
+end 
+
+// pb[1]
+initial
+begin
+	pb[1] = 1'b1;
+	pb[1] = #610000 1'b0;
+end 
+
+// pb[2]
+initial
+begin
+	pb[2] = 1'b1;
+	pb[2] = #240000 1'b0;
+	pb[2] = #370000 1'b1;
+	pb[2] = #360000 1'b0;
+end 
+
+// pb[3]
+initial
+begin
+	pb[3] = 1'b0;
+	pb[3] = #240000 1'b1;
+	pb[3] = #730000 1'b0;
 end 
 endmodule
 
